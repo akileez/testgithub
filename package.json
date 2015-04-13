@@ -1,0 +1,46 @@
+{
+  "name": "testgithub",
+  "version": "0.1.0",
+  "description": "An awesome module being created",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akileez/testgithub.git"
+  },
+  "author": {
+    "name": "Keith Williams",
+    "email": "git@keeda.net",
+    "url": "http:&#x2F;&#x2F;yourURL.com"
+  },
+  "homepage": "https://github.com/akileez/testgithub",
+  "bugs": {
+    "url": "https://github.com/akileez/testgithub/issues"
+  },
+  "license": {
+    "type": "ISC",
+    "url": "https://github.com/akileez/testgithub/blob/master/LICENSE"
+  },
+  "keywords": [
+    null
+  ],
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "moment": "^2.10.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "standard": "^3.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
